@@ -15,7 +15,7 @@ This project is built upon the open-source work of [baseline_react2025](https://
    - Download and placement of required files.
 
 2. **Set Pre-trained Model Paths**  
-   Before running the code, please modify the following file to specify the paths to your pre-trained models:
+   Before running the code, please modify the following file to specify the paths to your pre-trained  VEATIC weights:
    - **Code A**: `framework/modules/emotion_autoencoder.py`  
 
 3. **Run Training or Inference**  
