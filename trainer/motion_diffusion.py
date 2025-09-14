@@ -265,7 +265,7 @@ class Trainer:
         va_rec_losses = AverageMeter()
         em_rec_losses = AverageMeter()
 
-        weights_path = "/data04/j-huangjiajian-jk/react/code/PerFRDiff_e_same/one_stream_vit.pth"
+        weights_path = "../one_stream_vit.pth"
 
         e_model = VEATIC_baseline().to("cuda")
         weights_dict = torch.load(weights_path, map_location="cuda")
@@ -364,7 +364,7 @@ class Trainer:
         va_rec_losses = AverageMeter()
         em_rec_losses = AverageMeter()
 
-        weights_path = "/data04/j-huangjiajian-jk/react/code/PerFRDiff_e_same/one_stream_vit.pth"
+        weights_path = "../one_stream_vit.pth"
         e_model = VEATIC_baseline().to("cuda")
         weights_dict = torch.load(weights_path, map_location="cuda")
         load_weights_dict = {k: v for k, v in weights_dict.items()
@@ -473,7 +473,7 @@ class Trainer:
         input_speaker_emotions_all = []
 
 
-        weights_path = "/data04/j-huangjiajian-jk/react/code/PerFRDiff_e_same/one_stream_vit.pth"
+        weights_path = "../one_stream_vit.pth"
         e_model = VEATIC_baseline().to("cuda")
         weights_dict = torch.load(weights_path, map_location="cuda")
         load_weights_dict = {k: v for k, v in weights_dict.items()
