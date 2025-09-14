@@ -24,6 +24,4 @@ This project is built upon the open-source work of [PerFRDiff](https://github.co
      ```
 
 3. **Run Training or Inference**  
-   After completing the above configuration, you can start training or inference:
-   ```bash
-   python train.py  # or inference.py, depending on your task
+  The training and inference procedures are the same as in ReactFace. Please refer to the[PerFRDiff](https://github.com/xk0720/PerFRDiff) for commands and usage examples.
