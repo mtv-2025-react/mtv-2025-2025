@@ -16,7 +16,7 @@ This project is built upon the open-source work of [baseline_react2025](https://
 
 2. **Set Pre-trained Model Paths**  
    Before running the code, please modify the following file to specify the paths to your pre-trained  VEATIC weights:
-   - **Code A**: `framework/modules/emotion_autoencoder.py`  
+   - **Code A**: `trainer/motion_diffusion.py`  
 
 3. **Run Training or Inference**  
   The training and inference procedures are the same as in PerFRDiff. Please refer to the[PerFRDiff](https://github.com/reactmultimodalchallenge/baseline_react2025) for commands and usage examples.
